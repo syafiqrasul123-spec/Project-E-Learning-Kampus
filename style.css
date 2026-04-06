@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #D3EBED; /* Warna Background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #154FB2; /* Warna Utama */
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #76EAE3; /* Warna Aksen */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Cards (Untuk Kelas/Materi) */
+.card {
+    border-left: 5px solid #154FB2;
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.card h3 { margin-top: 0; color: #154FB2; }
+
+/* Buttons & Form */
+button, .btn {
+    background-color: #154FB2;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover, .btn:hover {
+    background-color: #103a85;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.badge {
+    background-color: #76EAE3;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    color: #000;
+}
